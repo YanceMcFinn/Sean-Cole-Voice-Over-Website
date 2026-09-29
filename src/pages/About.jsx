@@ -22,13 +22,13 @@ export default function About() {
             </p>
           </div>
 
-          {/* Headshot / Cutout Box */}
+          {/* Headshot */}
           <div className="md:col-span-6 flex justify-center">
             <div className="relative w-full max-w-md aspect-square bg-gradient-to-tr from-cyan-400 to-yellow-400 rounded-3xl border-4 border-indigo-950 shadow-[8px_8px_0px_0px_rgba(236,72,153,1)] overflow-hidden flex items-center justify-center p-6">
               <img 
-                src="/hero-pose.png" 
-                alt="Alex VO Headshot" 
-                className="absolute inset-0 w-full h-full object-contain"
+                src="/headshot.jpg" 
+                alt="Sean Cole Headshot" 
+                className="absolute inset-0 w-full h-full object-cover object-bottom"
               />
             </div>
           </div>

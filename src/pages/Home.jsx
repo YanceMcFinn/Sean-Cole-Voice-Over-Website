@@ -23,9 +23,6 @@ export default function Home() {
               <Link to="/demos" className="bg-pink-500 hover:bg-pink-400 text-white font-black px-8 py-4 rounded-2xl border-2 border-indigo-950 shadow-[5px_5px_0px_0px_rgba(250,204,21,1)] hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-none transition-all flex items-center gap-3">
                 <Play className="w-5 h-5 fill-current" /> HEAR REELS
               </Link>
-              <Link to="/contact" className="bg-indigo-900 hover:bg-indigo-800 text-white font-bold px-8 py-4 rounded-2xl border-2 border-indigo-700 transition-all">
-                BOOK A SESSION
-              </Link>
             </div>
           </div>
 
@@ -35,7 +32,7 @@ export default function Home() {
               <img 
                 src="/Me.jpg" 
                 alt="Character Voice Actor Portrait" 
-                className="absolute inset-0 w-full h-full object-contain object-bottom drop-shadow-[0_10px_20px_rgba(0,0,0,0.6)] group-hover:scale-105 transition-transform duration-300"
+                className="absolute inset-0 w-full h-full object-cover object-center drop-shadow-[0_10px_20px_rgba(0,0,0,0.6)] group-hover:scale-105 transition-transform duration-300"
               />
             </div>
           </div>
